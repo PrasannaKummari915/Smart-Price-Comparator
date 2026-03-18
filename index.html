@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Price Comparator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🔥 Find the Best Deals Across All Platforms</h1>
+    <input type="text" id="searchInput" placeholder="Search product...">
+    <button onclick="searchProduct()">Search</button>
+</header>
+
+<section id="popular">
+    <h2>Popular Products</h2>
+    <div class="products">
+        <div onclick="quickSearch('iPhone')">📱 iPhone</div>
+        <div onclick="quickSearch('Shoes')">👟 Shoes</div>
+        <div onclick="quickSearch('Laptop')">💻 Laptop</div>
+    </div>
+</section>
+
+<section id="results"></section>
+
+<section id="wishlist">
+    <h2>❤️ Wishlist</h2>
+    <div id="wishlistItems"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

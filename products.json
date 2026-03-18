@@ -1,0 +1,26 @@
+[
+  {
+    "name": "iPhone 14",
+    "image": "https://via.placeholder.com/150",
+    "platforms": [
+      {
+        "name": "amazon",
+        "priceINR": 70000,
+        "priceUSD": 840,
+        "link": "https://amazon.in"
+      },
+      {
+        "name": "flipkart",
+        "priceINR": 68000,
+        "priceUSD": 820,
+        "link": "https://flipkart.com"
+      },
+      {
+        "name": "myntra",
+        "priceINR": 71000,
+        "priceUSD": 860,
+        "link": "https://myntra.com"
+      }
+    ]
+  }
+]
